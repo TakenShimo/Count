@@ -14,6 +14,7 @@
 		C6B49F222179EBF800C67BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B49F202179EBF800C67BDB /* LaunchScreen.storyboard */; };
 		C6B49F2D2179EBF800C67BDB /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B49F2C2179EBF800C67BDB /* CountTests.swift */; };
 		C6B49F382179EBF800C67BDB /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B49F372179EBF800C67BDB /* CountUITests.swift */; };
+		C6B49F462179ED8A00C67BDB /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B49F452179ED8A00C67BDB /* haikei.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C6B49F332179EBF800C67BDB /* CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B49F372179EBF800C67BDB /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
 		C6B49F392179EBF800C67BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B49F452179ED8A00C67BDB /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C6B49F162179EBF700C67BDB /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				C6B49F452179ED8A00C67BDB /* haikei.png */,
 				C6B49F172179EBF700C67BDB /* AppDelegate.swift */,
 				C6B49F192179EBF700C67BDB /* ViewController.swift */,
 				C6B49F1B2179EBF700C67BDB /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B49F462179ED8A00C67BDB /* haikei.png in Resources */,
 				C6B49F222179EBF800C67BDB /* LaunchScreen.storyboard in Resources */,
 				C6B49F1F2179EBF800C67BDB /* Assets.xcassets in Resources */,
 				C6B49F1D2179EBF700C67BDB /* Main.storyboard in Resources */,
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
